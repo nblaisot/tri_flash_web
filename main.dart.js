@@ -87812,7 +87812,7 @@ if(s.b.test(a))return"zh-CN"
 else{s=A.dG("[\\uAC00-\\uD7AF]",!0,!1)
 if(s.b.test(a))return"ko-KR"
 else{s=A.dG("[\\u0600-\\u06FF]",!0,!1)
-if(s.b.test(a))return"ar-SA"
+if(s.b.test(a))return"ar"
 else{s=A.dG("[\\u0400-\\u04FF]",!0,!1)
 if(s.b.test(a))return"ru-RU"
 else{s=A.dG("[\\u0590-\\u05FF]",!0,!1)
